@@ -1,0 +1,19 @@
+{
+  "name": "godevs",
+  "version": "1.0.0",
+  "description": "A minimal CHAT app using socketIO ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon node index.js"
+  },
+  "author": "Mrinal Pramanick",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
